@@ -1,50 +1,63 @@
-# Welcome to your Expo app 👋
+# SpiritualData Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is the React Native mobile version of the SpiritualData platform, built with Expo and aligned with the current web design and functionality.
 
-## Get started
+## Getting Started
 
-1. Install dependencies
+### 1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
-2. Start the app
+### 2. Run the app
 
-   ```bash
-   npx expo start
-   ```
+```bash
+npx expo start
+```
 
-In the output, you'll find options to open the app in a
+You can open the app in:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* a development build
+* an Android emulator
+* an iOS simulator
+* Expo Go (limited capabilities)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Project Structure
 
-## Get a fresh project
+The project uses Expo Router with file based routing. All screens and navigation logic are inside the **app** directory.
 
-When you're ready, run:
+You can start development by editing files inside the **app** folder.
+
+## Reset the Starter Template
+
+If you want a fresh empty setup, run:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This moves the starter template to **app-example** and creates a clean **app** folder.
 
-## Learn more
+## Documentation
 
-To learn more about developing your project with Expo, look at the following resources:
+* Expo Docs
+  [https://docs.expo.dev](https://docs.expo.dev)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+* Expo Router
+  [https://docs.expo.dev/router/introduction](https://docs.expo.dev/router/introduction)
 
-## Join the community
+* Expo Tutorial
+  [https://docs.expo.dev/tutorial/introduction](https://docs.expo.dev/tutorial/introduction)
 
-Join our community of developers creating universal apps.
+## Community
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* Expo GitHub
+  [https://github.com/expo/expo](https://github.com/expo/expo)
+
+* Expo Discord
+  [https://chat.expo.dev](https://chat.expo.dev)
+
+---
+
+If you want, I can add sections like API setup, folder structure, features list, or screenshots.
